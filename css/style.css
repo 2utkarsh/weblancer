@@ -727,14 +727,15 @@ span.template-name{
 	z-index: 999;
   	padding-top: 260px;
   	padding-bottom: 200px;
-  	background: #222a2e;
-  	background: url(images/) top center no-repeat;
+  	background:black;
+  	background: url(images/background.jpg) top center no-repeat;
 	background-size: cover;
 }
 
 .home-section-overlay{
 	width: 100%;
 	background: hsla(198, 65%, 34%, 1);
+background: hsla(198, 65%, 34%, 1);
 
 background: linear-gradient(90deg, hsla(198, 65%, 34%, 1) 0%, hsla(178, 44%, 32%, 1) 100%);
 
@@ -742,7 +743,10 @@ background: -moz-linear-gradient(90deg, hsla(198, 65%, 34%, 1) 0%, hsla(178, 44%
 
 background: -webkit-linear-gradient(90deg, hsla(198, 65%, 34%, 1) 0%, hsla(178, 44%, 32%, 1) 100%);
 
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1E6C8E", endColorstr="#2E7775", GradientType=1 );opacity: 0.5;
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1E6C8E", endColorstr="#2E7775", GradientType=1 );
+
+
+	opacity: 0.5;
 	position: absolute;
 	top: 0;
 	left: 0;

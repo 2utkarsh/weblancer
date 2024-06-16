@@ -728,13 +728,13 @@ span.template-name{
   	padding-top: 260px;
   	padding-bottom: 200px;
   	background:black;
-  	background: url(images/background.jpg) top center no-repeat;
+  	background: url('images/background.jpg') top center no-repeat;
 	background-size: cover;
 }
 
 .home-section-overlay{
 	width: 100%;
-	background: hsla(198, 65%, 34%, 1);
+	
 background: hsla(198, 65%, 34%, 1);
 
 background: linear-gradient(90deg, hsla(198, 65%, 34%, 1) 0%, hsla(178, 44%, 32%, 1) 100%);
